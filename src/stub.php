@@ -1,4 +1,3 @@
-<?php
 if(extension_loaded('phar')){
     $phar = new \Phar(__DIR__);
     date_default_timezone_set("UTC");
